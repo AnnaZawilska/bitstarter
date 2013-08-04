@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -99,7 +100,8 @@
       }
     </style>
   </head>
-<body>
+  <body>
+
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -123,7 +125,7 @@
       </div>
     </div>
 
-<!-- We use row-fluid inside containers to achieve a resizable layout. -->
+    <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
     <!-- http://stackoverflow.com/a/12270322 -->
     <div class="container">
@@ -142,28 +144,27 @@
           <p class="lead">an online video-based tool for social collective intelligence</p>
         </div>
       </div>
-<div class="row-fluid pitch">
+      <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <!--<img class="img-polaroid" src="http://placehold.it/480x300"> -->
-	  <img class="img-polaroid" src="http://i.imgur.com/CWk59P5.png">
-
+          <img class="img-polaroid" alt="Placeholder" src="http://i.imgur.com/CWk59P5.png">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
+          <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="statistics">
+            <div class="row-fluid statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
-                <h3>0</h3> <p>backers</p>
+                <h3>1000</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$0</h3> <p>of $500</p>
+                  <h3>$6000</h3> <p>of $10,000</p>
                 </div>
               </div>
               <div class="span4">
@@ -173,6 +174,7 @@
               </div>
             </div>
           </div>
+          <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
@@ -181,17 +183,23 @@
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
+          </div>
+        </div>
         </div>
       </div>
 
@@ -201,24 +209,39 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <!--<img class="img-polaroid" src="http://i.imgur.com/KcXTOKt.jpg"> -->
-	  <img class="img-polaroid" src="http://i.imgur.com/yMXFhVZ.jpg">
+          <img class="img-polaroid"  alt="Placeholder" src="http://i.imgur.com/yMXFhVZ.jpg">
         </div>
         <div class="span5 copy">
           <p>
-	    ginsa (pronounced jin-sah) stands for 'ginsa is not simply annotation'. <br> <br>
-	    ginsa is an online tool for annotating video but, as the name suggests, is much more than a simple annotator.<br> ginsa is founded on 2 principles: <br> (1) there is great potential for problem-solving and discussion in geographically distributed groups of people, and <br> (2) online content has no inherent meaning or value on its own, but its meaning and usefulness are determined by the interpretive viewpoints and understandings of the content-consumer (that's you!). <br> <br>  ginsa combines these two principles by creating an annotation system where the annotation at any particular point is an entry into a growing living web of discussions and  other related content. Are you feeling inspired or confused by a TED video you watched? Are you curious about a particular subject related to the video and perhaps your own everyday experiences? Are you looking to start a venture related to the video content and want to find like-minded people or contributors? Annotate a segment of the video which forms the seed of further discussion, or hook onto someone else's discussion -- and create a growing breathing semantic web of commentations, discussions, and related online content. <br> <br> And why video? Consider the last time you used a content-based website without video and you will get your answer! Video is the future of web content. <br> <br> The diagrams shown are simplified mockups of the final system, showing a small set of nodes. The blue node below the video indicates an annotation associated with the particular small segment of the paused video. 
-	  </p>
+            ginsa (pronounced jin-sah) stands for 'ginsa is not simply annotation'. <br> <br>
+
+ginsa is an online tool for annotating video but, as the name suggests, is much more than a simple annotator.
+ginsa is founded on 2 principles: <br>
+(1) there is great potential for problem-solving and discussion in geographically distributed groups of people, and <br>
+(2) online content has no inherent meaning or value on its own, but its meaning and usefulness are determined by the interpretive viewpoints and understandings of the content-consumer (that's you!). <br> <br>
+
+ginsa combines these two principles by creating an annotation system where the annotation at any particular point is an entry into a growing living web of discussions and other related content. Are you feeling inspired or confused by a TED video you watched? Are you curious about a particular subject related to the video and perhaps your own everyday experiences? Are you looking to start a venture related to the video content and want to find like-minded people or contributors? Annotate a segment of the video which forms the seed of further discussion, or hook onto someone else's discussion -- and create a growing breathing semantic web of commentations, discussions, and related online content. <br> <br>
+
+And why video? Consider the last time you used a content-based website without video and you will get your answer! Video is the future of web content. <br> <br>
+
+The diagrams shown are simplified mockups of the final system, showing a small set of nodes. The blue node below the video indicates an annotation associated with the particular small segment of the paused video.
+          </p>
         </div>
       </div>
+
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-From this base content, different types of semantic relationships may be made to other content or discussions, indicated by different arrows between nodes.<br>Hovering over a particular node will display its characteristics, as shown in the images. <br> The characteristics may be shown in a tag cloud, as in the diagrams. Additionally, the characteristics of the nodes may be searched to filter the web of nodes. For example, in the last image, someone has searched 'san francisco' and the branches of the web which lead to a suggestion by someone in san franciso has been made prominent on the page. In this way, finding topics and connecting with individuals in a selected geographical area is simple  and you have a rich idea of the popular subjects with people in that area. <br> <br>  ginsa may also be used in a more focused way by a group of collaborators working on analysing a video, or brainstorming an idea founded on the contents of a video.
+            From this base content, different types of semantic relationships may be made to other content or discussions, indicated by different arrows between nodes.<br>
+Hovering over a particular node will display its characteristics, as shown in the images. <br>
+The characteristics may be shown in a tag cloud, as in the diagrams. Additionally, the characteristics of the nodes may be searched to filter the web of nodes. For example, in the last image, someone has searched 'san francisco' and the branches of the web which lead to a suggestion by someone in san franciso has been made prominent on the page. In this way, finding topics and connecting with individuals in a selected geographical area is simple and you have a rich idea of the popular subjects with people in that area. <br> <br>
+
+ginsa may also be used in a more focused way by a group of collaborators working on analysing a video, or brainstorming an idea founded on the contents of a video.
+
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://i.imgur.com/HVPrWzq.png">
+          <img class="img-polaroid"  alt="Placeholder" src="http://i.imgur.com/HVPrWzq.png">
         </div>
       </div>
 
@@ -272,7 +295,5 @@ From this base content, different types of semantic relationships may be made to
         </div>
       </div>
     </div>
-
-</body>
-
+  </body>
 </html>
